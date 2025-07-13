@@ -1,8 +1,6 @@
 function productExceptItself(nums)  {
     let prefixes = [];
     let suffixes = [];
-    
-
     let product = 1;
 
     for(let i=0; i< nums.length; i++) {
